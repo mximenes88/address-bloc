@@ -12,6 +12,9 @@ describe("ContactController", ()=>{
             done();
         });
     });
+        it("should be defined", () => {
+            expect(ContactController).toBeDefined();
+    
 });
 
 describe('#addContact()',()=>{

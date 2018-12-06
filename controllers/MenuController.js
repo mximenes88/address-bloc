@@ -91,7 +91,6 @@ module.exports= class MenuController {
     getContactCount(){
         return this.contacts.length;
     }
-<<<<<<< HEAD
     
     search(){
         inquirer.prompt(this.book.searchQuestions)
@@ -167,10 +166,3 @@ module.exports= class MenuController {
 }
 
 
-=======
-
-    remindMe(){
-        return "Learning is a life-long pursuit"
-    }
-}
->>>>>>> assignment-2-testing

@@ -12,6 +12,8 @@ module.exports= class MenuController {
             "Add new contact",
             "View all contacts",
             "Search for a contact",
+            'Get current date',
+            'Remind Me',
             "Exit"
           ]
         }
@@ -26,13 +28,19 @@ module.exports= class MenuController {
             switch(response.mainMenuChoice){
                 case "Add new contact":
                     this.addContact();
-                    break
+                    break;
                 case"View all contacts":
                     this.getContacts();
-                    break
+                    break;
                 case "Search for a contact":
                     this.search();
-                    break
+                    break;
+                case 'Get current date':
+					this.getDate();
+					break;
+				case 'Remind Me':
+					this.remindMe();
+					break;
                 case "Exit":
                     this.exit();
                 default:
@@ -163,6 +171,22 @@ module.exports= class MenuController {
           this.main();
         });
       }
+    
+      getDate(){
+        this.clear();
+        var ts = new Date()
+        console.log( " The current date & time is: " + ts);
+        this.main();
+    
+    }
+
+	remindMe() {
+		this.clear();
+		console.log('Learning is a life-long pursuit');
+		this.main();
+		return 'Learning is a life-long pursuit';
+	}
+
 }
 
 

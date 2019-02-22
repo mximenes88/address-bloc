@@ -1,4 +1,15 @@
-#### Address-keeper App 
+#### Address-keeper App  :mailbox_with_mail: :mailbox_with_mail:
 
   A command-line application that allows users to enter and retrieve contacts(name,phone,email). 
-  Built using Node.Js and Sequelize.
+  
+  **Built with:**
+   * Node.Js 
+   * Sequelize.
+  
+  **Features:**
+   * Users can add and retrieve addresses
+   * Users can delete contacts and edit contacts
+   * Users can search contacts by name and/or emai
+   
+   
+ 

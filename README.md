@@ -1,4 +1,4 @@
-#### Address-keeper App  :mailbox_with_mail: :mailbox_with_mail:
+# Address-keeper App  :mailbox_with_mail: :mailbox_with_mail:
 
   A command-line application that allows users to enter and retrieve contacts(name,phone,email). 
   
